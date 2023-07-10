@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+    #frame {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        width: 600px;
+        height: 370px;
+        margin-top: -200px;
+        margin-left: -200px;
+        border-radius: 2px;
+          box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+          overflow: hidden;
+        background: white;
+        color: #333;
+          font-family: 'Open Sans', Helvetica, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+      }
+
+      .titulo{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 20px;
+        text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.301);
+
+        color: rgb(36, 111, 224);
+        background-color: rgba(214, 211, 211, 0.788);
+        
+
+        margin-top: 0;
+        padding: 1px 0px 1px 0px ;
+
+      }
+
+      .conteudo {
+        display: block;
+        
+      }
+
+      .conteudo > p{
+        font-size: 16px;
+        text-indent: 10px;
+
+        margin-bottom: 0px;
+        font-weight: 500;
+      }
+
+      .conteudo p:first-child {
+        font-weight: 600;
+        margin-bottom: 0px; 
+      }
+
+  
+      .title{
+       height: 30px;
+        width: 95%;
+        margin-left: 10px;
+        font-size: 16px;
+        border-style: solid;
+        border-radius: 5px;
+        box-shadow: 0px 2px 11px 1px rgba(0, 0, 0, 0.233);
+      }
+      .descrição{
+        height: 30px;
+        width: 95%;
+        font-size: 16px;
+        margin-left: 10px;
+        border-style: solid;
+        border-radius: 5px;
+        box-shadow: 0px 2px 11px 1px rgba(0, 0, 0, 0.233);
+      }
+
+      .pasta{
+        height: 30px;
+        width: 75%;
+        font-size: 16px;
+        margin-left: 10px;
+        border-style: solid;
+        border-radius: 5px;
+        box-shadow: 0px 2px 11px 1px rgba(0, 0, 0, 0.233);
+      }
+
+      
+ .conteudo button {
+    height: 40px;
+    width: 100px;   
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.719);
+
+    border-color: rgba(0, 0, 0, 0.719);
+    border-radius: 8px;
+
+    box-shadow: 0px 2px 11px 1px rgba(0, 0, 0, 0.233);
+
+}
+
+.rodape {
+    width: 100%;
+    height: 18%;
+    background-color: rgba(214, 211, 211, 0.788);
+
+    margin-top: 7%;
+
+    display: flex;
+   
+}
+
+.rodape button {
+
+    height: 40px;
+    width: 150px;   
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.719);
+
+    margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.719);
+
+}
+      
+      
+
+
+
