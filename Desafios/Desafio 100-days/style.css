@@ -1,0 +1,134 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+@font-face {
+    font-family: 'made';
+    src: url('made.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+:root{
+    --cor1:#4442A2;
+    --cor2: #4EBEC8;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(45deg, #433BA0 20%, #4EBEC8 100%);
+}
+
+.line1 {
+  font-family: 'made';
+  color: white;
+  font-size: 75px;
+  font-weight: normal;
+  margin-top: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.line2 {
+    font-family: 'made';
+    font-size: 23px;
+    font-weight: 300;
+    position: absolute;
+    color: white;
+    margin-top: 95px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .number {
+    height: 130px;
+    width: 250px;
+    display: flex;
+    margin-left: 16%;
+    margin-right: 50%;
+    margin-top: 22%;
+  }
+
+  .one-one{
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.596);
+  }
+  
+  .one-two {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    margin-top: 8%;
+    margin-left: 4%;
+    background-color: rgb(240, 233, 233);
+    transform: rotate(-50deg);
+    border-radius: 10%;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.596);
+  }
+
+  .zero-one{
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 14%;
+    margin-top: 6%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 24px solid #fff;
+    box-shadow: 5px 10px 11px 0 rgba(0,0,0,0.2);
+  }   
+    
+  .zero-two{
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 35%;
+    margin-top: 6%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 24px solid #fff;
+    box-shadow: 5px 10px 11px 0 rgba(0,0,0,0.2);; 
+  }   
+   
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+  
+
+  
+  
