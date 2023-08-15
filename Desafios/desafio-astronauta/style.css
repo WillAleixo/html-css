@@ -7,7 +7,6 @@
 
 body { 
     height: 100vh;
-
     background-image: url(imagens/espaco.jpg);
     background-size: cover;
     background-position: center center;
@@ -16,27 +15,7 @@ body {
     text-align: center;
 }
 
- /* em volta */ 
- main {
-    background-color: ;
-    display: inline-block;
 
-    margin-top: 25%;
-
-    min-width: 10px;
-    max-width: 400px;
-
-}
-
-#astro-imagem{
-
-    display: flex;
-    margin: auto;
-    
-
-    width: 100%;
-    
-}
 
 
 
