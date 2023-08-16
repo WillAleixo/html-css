@@ -15,7 +15,7 @@ header {
 header > h1 {
     color: white;
     text-align: center;
-    font-weight: bold;
+    font-variant: small-caps;
 
     font: 92px 'Passion One', cursive;
 }
