@@ -21,15 +21,16 @@
             padding: 10px;
         }
 
-        thead, tfoot{
-            background-color: gray;
+         tfoot{
+            background-color: rgba(0, 0, 0, 0.801);
             color: white;
         }
 
         thead > tr > th{
           position: sticky;
           top: -1px;
-          background-color: gray;
+          background-color: rgba(0, 0, 0, 0.801);
+          color: white;
         }
 
         .num{
@@ -65,8 +66,8 @@
         <caption>População das Unidades federativas</caption>
         <thead>
           <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
           </tr>  
         </thead>
 
@@ -184,7 +185,7 @@
 
         <tfoot>
           <tr>
-            <th>Totel de habitantes</th>
+            <th scope="row">Totel de habitantes</th>
             <td class="num">210.147.125</td>
           </tr>    
 
