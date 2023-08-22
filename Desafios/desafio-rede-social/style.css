@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 98vh;
+    background-color: black;
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.frame{
+    width: 311px;
+    height: 627px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(imagens/frame-iphone.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+.tela{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 270px;
+    height: 470px;
+}
+
+iframe{
+    width: 400px;
+    height: 700px;
+}
+
+.caixa{
+    width: 55px;
+    height: 450px;
+    margin-top: 50px ;
+    position: absolute;
+    right: 5px;
+}
+
+.icon1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(imagens/logo-home.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.icon2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 70px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(imagens/logo-facebook.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.icon3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 140px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(imagens/logo-instagram.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.icon4{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 210px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(imagens/logo-twitter.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.icon5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 280px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(imagens/logo-youtube.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.icon6{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 350px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(imagens/logo-github.jpg);
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+ div:hover{
+    transition: border 1s;
+    
+    box-shadow:0px 0px 6px 0px white;
+}
+
+
+
+
