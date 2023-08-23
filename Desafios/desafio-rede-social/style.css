@@ -6,26 +6,21 @@
 }
 
 body{
-    height: 98vh;
-    background-color: black;
-    background-image: url(imagens/fundo-madeira.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+    height: 98vh;
+    background:  black  url('imagens/fundo-madeira.jpg') center center no-repeat;
+    background-size: auto;
 }
 
-
-
 .frame{
-    width: 311px;
-    height: 627px;
-    background-color: rgba(255, 255, 255, 0);
-    background-image: url(imagens/frame-iphone.png);
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 311px;
+    height: 627px;
     transform: translate( -50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('imagens/frame-iphone.png');
 }
 
 .tela{
@@ -55,7 +50,7 @@ iframe{
     height: 50px;
     border-radius: 50%;
     background-color: white;
-    background-image: url(imagens/logo-home.jpg);
+    background-image: url('imagens/logo-home.jpg');
     background-position: center center;
     background-size: cover;
 }
@@ -67,7 +62,7 @@ iframe{
     margin-top: 70px;
     border-radius: 50%;
     background-color: white;
-    background-image: url(imagens/logo-facebook.jpg);
+    background-image: url('imagens/logo-facebook.jpg');
     background-position: center center;
     background-size: cover;
 }
@@ -79,7 +74,7 @@ iframe{
     margin-top: 140px;
     border-radius: 50%;
     background-color: white;
-    background-image: url(imagens/logo-instagram.jpg);
+    background-image: url('imagens/logo-instagram.jpg');
     background-position: center center;
     background-size: cover;
 }
@@ -91,7 +86,7 @@ iframe{
     margin-top: 210px;
     border-radius: 50%;
     background-color: white;
-    background-image: url(imagens/logo-twitter.jpg);
+    background-image: url('imagens/logo-twitter.jpg');
     background-position: center center;
     background-size: cover;
 }
@@ -103,7 +98,7 @@ iframe{
     margin-top: 280px;
     border-radius: 50%;
     background-color: white;
-    background-image: url(imagens/logo-youtube.jpg);
+    background-image: url('imagens/logo-youtube.jpg');
     background-position: center center;
     background-size: cover;
     
@@ -116,7 +111,7 @@ iframe{
     margin-top: 350px;
     border-radius: 50%;
     background-color: white;
-    background-image: url(imagens/logo-github.jpg);
+    background-image: url('imagens/logo-github.jpg');
     background-position: center center;
     background-size: cover;
    
@@ -124,7 +119,6 @@ iframe{
 
  div:hover{
     transition: border 1s;
-    
     box-shadow:0px 0px 6px 0px white;
 }
 
