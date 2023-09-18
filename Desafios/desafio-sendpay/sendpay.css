@@ -282,34 +282,91 @@ header{
     flex-direction: row;
     justify-content: center;
     margin-bottom: 70px;
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.781);
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.377);
 }
 
 .article-two-section-for{
+    background-color: rgba(186, 9, 209, 0.329);
+    width: 1000px;
+    height: 500px;
     margin-left: -10px;
-    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-two-section-for-img{
+    width: 90px;
+    height: 80px;
 }
 
 
 .bank-img{
-    background-color: #6C63FF;
-    width: 350px;
+    background-color: rgba(0, 0, 255, 0.555);
+    width: 500;
     height: 250px;
     display: flex;
     align-items: center;
     
 }
 
-.article-two-section-for-img{
-    margin-left: -60px;
-    max-width: 150px;
-    max-height: 150px;
+.subtitle-img-section-for{
+    margin-top: -40px;
+    font-size: 20px;
 }
 
 .text-article-two-section-for{
     align-self: flex-end;
+    margin-left: -158px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.377);
 }
 
 
+.mobile-img{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
 
+.text-article-two-section-for2{
+    align-self: flex-end;
+    margin-left: -188px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.377);
+}
+
+.timer-img{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.text-article-two-section-for3{
+    align-self: flex-end;
+    margin-left: -140px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.377);
+}
+
+
+.car-img{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.text-article-two-section-for4{
+    align-self: flex-end;
+    margin-left: -155px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.377);
+}
