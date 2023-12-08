@@ -1,0 +1,250 @@
+@charset "UTF-8";
+@keyframes animacao {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframes animacao2{
+    0% {}
+    30% {width: 100px;}
+    60% {background-color: red;}
+    80% {left: 100px; background-color: blue;}
+    100% {height: 100px;}
+
+}
+
+@keyframes animacao3{
+    from {left: 0;}
+    to {left: 200px; background-color: green;}
+   
+}
+
+@keyframes animacao4{
+    0% {left: 0;}
+    50% {left: 200px; background-color: green;}
+    80% {right: -200px; background-color: green;}
+    100%{left: 0;}
+}
+
+@keyframes animacao5{
+    0% {left: 0;}
+    50% {left: 500px; background-color: green;}
+    100%{left: 0;}
+}
+
+#animation-div{
+   width: 100px;
+   height: 100px;
+   background-color: yellow;
+   animation-name: animacao;
+   animation-duration: 5s;
+}
+
+#animation-div2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation-name: animacao2;
+    animation-duration: 6s;
+    position: relative;
+ }
+
+#animation-div3{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: relative;
+    animation-name: animacao3;
+    animation-duration: 4s;
+    animation-delay: 0;
+    animation-iteration-count: 30;
+} 
+
+#animation-div4{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position: relative;
+    animation-name: animacao4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+} 
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    position: relative;
+    animation-name: animacao5;
+    animation-duration: 7s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+#animation-div5{
+  animation-timing-function: linear;
+}
+
+#animation-div6{
+    animation-timing-function: ease;
+}
+
+#animation-div7{
+    animation-timing-function: ease-in;
+}
+
+#animation-div8{
+    animation-timing-function: ease-out;
+}
+
+#animation-div9{
+    animation-timing-function: ease-in-out;
+}
+
+.btn{
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 90px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #333;
+    color: #ffffff;
+    border: 1px solid #333;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn:hover{
+    color:#333;
+    background: #fff;
+ }
+
+.transition{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    transition: 4s;
+}
+
+.transition:hover{
+    width: 400px;
+}
+
+/* calc */
+
+.div-calc{
+    height: 250px;
+    width: 500px;
+    position: relative;
+    margin: 20px;
+    background-color: #DDD;
+    border: 1px solid red;
+}
+
+.innerdiv-calc {
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    background-color: red;
+}
+
+.calc1 {
+    width: calc(50% + 50px);
+}
+
+.calc2 {
+    width: calc(50% - 50px);
+}
+
+.calc3{
+    width: calc(50% *2);
+    margin: 0;
+}
+
+.calc4{
+    width: calc(50% / 2);
+}
+
+/*gradient */
+
+.gradient-box{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+.gradient1{
+    background-image: linear-gradient(purple, blue);
+}
+
+.gradient2{
+    background-image: linear-gradient(to right, purple, blue);
+}
+
+.gradient3{
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+.gradient4{
+    background-image: linear-gradient(to top, red, yellow);
+}
+.gradient5{
+    background-image: linear-gradient(to top right, green, yellow);
+}
+
+.gradient6{
+    background-image: linear-gradient(blue, red, yellow);
+}
+
+.gradient7{
+    background-image: radial-gradient(#323042, #DB9D47, #FF784F);
+}
+
+.gradient8{
+    background-image: radial-gradient(#323042 10%, #DB9D47 30%, #FF784F);
+}
+
+.gradient9{
+    background-image: radial-gradient(circle, #323042, #DB9D47, #FF784F);
+}
+
+/*fontface*/
+@font-face{
+    font-family: "Lage Grafic";
+    src: url(fonts/lage_grafica.ttf)
+}
+.fontface{
+    font-family: "Lage Grafic";
+}
+
+/*media query*/
+
+.mediaquery{
+  width: 1200px;
+  height: 200px;
+  background-color: red;
+}
+
+@media (max-width: 1024px){
+    .mediaquery{
+        width: 500px;
+        background-color: blue;
+    }
+}
+
+@media (max-width: 768px){
+    .mediaquery{
+        width: 350px;
+        background-color: yellow;
+    }
+}
+@media (max-width: 425px){
+    .mediaquery{
+        width: 200px;
+        background-color: green;
+    }
+}
