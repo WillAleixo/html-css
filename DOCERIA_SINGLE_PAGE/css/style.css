@@ -58,6 +58,36 @@ a {
     width: calc(100% - 300px);
 }
 
+.content h1,.content h2 {
+    margin-bottom: 30px;
+    font-family: 'Open sans', 'sans-serif';
+    color: #006599;
+}
+
+.content h1{
+    font-size: 48px;
+}
+
+.content h2{
+    font-size: 35px;
+}
+
+.content section {
+    padding-left: 50px;
+}
+
+#sessao-bemvindo{
+    padding-left: 0;
+}
+
+#sessao-bemvindo .banner{
+    margin-bottom: 70px;
+    padding-left: 0;
+    height: 500px;
+    background-image: url('../img/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
 
 
