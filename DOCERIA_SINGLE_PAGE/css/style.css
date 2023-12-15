@@ -131,7 +131,7 @@ a {
 	margin-left: 25px;
 }
 
-.sessao-bemvindo-btn, form input[type=submit] {
+.sessao-bemvindo-btn {
     background-color: #006599;
     color: #fff;
     text-decoration: none;
@@ -275,11 +275,40 @@ form input[type=text], form input[type=email]{
     height: 40px;
     margin-bottom: 15px;
     border: solid 1px #006599;
+    font-size: 16px;
+    text-indent: 5px;
 }
+
 
 .message{
     width: 500px;
     height: 150px;
     border: solid 1px #006599;
+    font-size: 16px;
+    text-indent: 5px;
+}
+
+form input[type=submit] {
+    background-color: #006599;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px; 
+    font-size: 16px;
+}
+
+footer p{
+    font-size: 17px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bolder;
+    color: #006599;
+    margin-bottom: 80px;
+   text-align: center;
 }
 
