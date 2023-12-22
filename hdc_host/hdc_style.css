@@ -1,0 +1,143 @@
+body, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+/*container geral*/
+.container{
+    display: block;
+}
+
+/*Cabeçalho*/
+
+.navbar-container{
+    display: flex;
+    flex-basis: 100%;
+    background-color: #232A31;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    background-image: url(img/hdchostlogo.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-left: 32px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn-login{
+    background-color: #22BB5F;
+    color: #fff;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 16px;
+    width: 90px;
+    height: 50px;
+    margin-right: 40px;
+    border-radius: 5%;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    color: rgba(128, 128, 128, 0.747);
+}
+
+.navbar a:hover{
+    color: rgb(128, 128, 128);
+}
+
+/*banner*/
+
+.banner{
+    height: 550px;
+    width: 100%;
+    background-image: url(img/mainbanner.png);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    font-family: "Montserrat";
+    color: #fff;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.banner p{
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 50px;
+}
+
+/*Informações*/
+
+.section-info{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+}
+
+.info{
+    width: 550px;
+    margin-top: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.section-info p {
+    font-family: "Montserrat";
+    text-align: center;
+    color: gray;
+    
+}
+
+.section-info h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.escudo{
+    width:60px;
+    height:60px;
+    background-image: url(img/escudo.png);
+    background-size: cover;
+}
+
+.foguete{
+    width:60px;
+    height:60px;
+    background-image: url(img/foguete.png);
+    background-size: cover;
+}
+
+.chat{
+    width:60px;
+    height:60px;
+    background-image: url(img/suporte-tecnico.png);
+    background-size: cover;
+}
