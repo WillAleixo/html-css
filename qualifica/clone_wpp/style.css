@@ -15,203 +15,353 @@ ul {
     position: relative;
 }
 
-/* Sidebar */
+/* Side bar */
 
 .sidebar {
-    height: 100%;
     width: 410px;
-    position: relative;
+    height: 100%;
     display: inline-block;
+    position: relative;
 }
+
+/* toolbar */
 
 .toolbar-container {
+    width: 100%;
     height: 60px;
-    background-color: #EEEEEE;
+    background-color: #EEE;
 }
 
-.toolbar-container .user-photo{
+.user-photo {
     width: 40px;
-    height: 40px;
     border-radius: 50%;
-    position: relative;
-    top: 10px;
+    position: absolute;
     left: 15px;
-    background-color: #CCCCCC;
+    top: 10px;
+    background-color: #CCC;
 }
 
-.auxicons-toolbar-container{
-    position: relative;
+.auxicons-toolbar-container {
     float: right;
-    right: 20px;
-    top: 20px;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 20px;
 }
 
-.auxicons-toolbar-container i{
+.auxicons-toolbar-container i {
+    color: #80868a;
     font-size: 20px;
-    color: #80868A;
-    margin-right: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
 }
 
 /* notification container */
 
-.notification-container{
+.notification-container {
+    width: 100%;
     height: 90px;
-    background-color: #9DE1FE;
+    padding-top: 23px;
+    padding-left: 80px;
+    background-color: #9de1fe;
     color: #384c56;
     position: relative;
+    box-sizing: border-box;
 }
 
-.notification-container .fa-bell-slash{
-    font-size: 20px;
+.fas.fa-bell-slash {
+    width: 45px;
+    height: 45px;
     text-align: center;
     line-height: 45px;
-    width: 45px;
     border-radius: 50%;
-    background-color: #F5FCFF;
-    color: #9DE1FE;
-    float: left;
-    margin-left: 15px;
-    margin-top: 20px;
+    font-size: 18px;
+    color: #9de1fe;
+    background-color: #f5fcff;
+    position: absolute;
+    top: 20px;
+    left: 15px;
 }
 
-.receive-notification{
-    margin-left: 80px;
-    padding-top: 25px;
+.notification-container p {
+    margin: 0;
+}
+
+.notification-container .receive-notification {
     font-size: 15px;
+    margin-bottom: 3px;
 }
 
-.active-notification{
-   margin-left: 80px;
-   margin-top: 8px;
-   font-size: 14px;
-}
-
-.fa-angle-right {
+.activate-notification {
     font-size: 13px;
-    font-weight: bolder;
 }
-   
+
 /* search container */
 
-.search-container{
+.search-container {
     height: 50px;
     width: 100%;
-    background-color: #F8F8F8;
+    padding-left: 7.5px;
+    padding-top: 7.5px;
+    background-color: #f8f8f8;
     position: relative;
+    color: #bdc1c3;
+    box-sizing: border-box;
 }
 
 #contact-search {
     position: absolute;
+    left: 30px;
+    top: 18px;
     font-size: 14px;
-    padding-left: 25px;
-    padding-top: 18px;
-    color: #CCCCCC;
 }
 
- #search {
+#search {
+    border: none;
     height: 35px;
     width: 385px;
     padding-left: 60px;
-    border-radius: 50px;
-    border: none;
+    border-radius: 17.5px;
+    background-color: #fff;
     box-sizing: border-box;
-    margin-top: 7px;
 }
 
-#search::placeholder{
-    color: #BDC1C3;
+#search::placeholder {
+    color: #bdc1c3;
 }
 
-/* Contact container */
+/* contacts container */
 
 .contacts-container {
-	height: auto;
-	background-color: #FFF;
+    height: auto;
+    background-color: #fff;
 }
 
 .contact-box {
-	cursor: pointer;
-	height: 72px;
-	background-color: #FFF;
-	border-top: 1px solid #f2f2f2;
-	position: relative;
-	box-sizing: border-box;
+    cursor: pointer;
+    height: 72px;
+    background-color: #fff;
+    border-top: 1px solid #f2f2f2;
+    position: relative;
+    box-sizing: border-box;
 }
 
-.contact-box:last-child {
-	border-bottom: 1px solid #f2f2f2;
+.contact-box:last-child{
+    border-bottom: 1px solid #f2f2f2;
 }
 
-.contact-box:hover {
-	background-color: #f4f5f5;
+.contact-box:hover{
+    background-color: #f4f5f5;
 }
 
 .active-chat {
-	background-color: #E9EBEB;
+    background-color: #e9ebeb;
 }
 
-.active-chat.contact-box:hover {
-	background-color: #E9EBEB;
+.active-chat.contact-box:hover{
+    background-color: #e9ebeb;
 }
 
-.contact-box .user-photo {
-	width: 50px;
+.contact-box .user-photo{
+    width: 50px;
 }
 
-.user-info {
-	margin-left: 80px;
-	padding-top: 10px;
-	display: inline-block;
+.user-info{
+    margin-left: 80px;
+    padding-top: 10px;
+    display: inline-block;
 }
 
-.user-info p, .message-info p {
-	margin: 0;
+.user-info p, .message-info p{
+    margin: 0;
 }
 
-.user-name {
-	font-size: 16px;
-	color: #000;
-	margin-bottom: 12px;
+.user-info .user-name{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 12px;
 }
 
-.user-messagepreview {
-	font-size: 14px;
-	color: #454545;
+.user-messagepreview{
+    font-size: 14px;
+    color: #454545;
 }
 
 .fa-check-double {
-	margin-right: 5px;
-	color: #4FC3F7;
+    margin-right: 5px;
+    color: #4fc3f7;
 }
 
-.message-info {
-	position: absolute;
-	top: 12px;
-	right: 20px;
-	display: inline-block;
+.message-info{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    display: inline-block;
 }
 
 .message-info .message-time {
-	font-size: 12px;
-	margin-bottom: 5px;
-	color: #CCC;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #CCC;
 }
 
 .message-pending {
-	background-color: #09d261;
-	color: #FFF;
-	width: 19px;
-	height: 19px;
-	line-height: 19px;
-	font-size: 12px;
-	font-weight: bold;
-	border-radius: 50%;
-	text-align: center;
-	float: right;
+    background-color: #09d261;
+    color: #FFF;
+    height: 19px;
+    width: 19px;
+    line-height: 19px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    float: right;
+}
+/* chat container */ 
+
+.chat-container{
+    position: absolute;
+    top: 0;
+    left: 410px;
+    width: calc(100% - 410px);
+    height: 100%;
+    background-color: #CCC;
 }
 
+/* chat navbar */
 
+.chat-navbar {
+    height: 60px;
+    background-color: #EEE;
+    border-left: 1px solid #DDD;
+    padding-left: 75px;
+}
 
+.contactinfo-container {
+    display: inline-block;
+}
 
+.contactinfo-container .user-name {
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+}
 
+.chattools-container {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
+}
+
+.chattools-container li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: #80868a;
+    cursor: pointer;
+}
+
+/* messages-container */
+
+.messages-container{
+    background-color: #e1dad2;
+    height: calc(100% - 120px);
+    position: relative;
+}
+
+.bg-image{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/background_whats.png');
+    opacity: .05;
+    background-repeat: repeat;
+}
+
+.chat-messages{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 30px 80px;
+    box-sizing: border-box;
+}
+
+.chat-messages p {
+    display: block;
+    color: #262626;
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 7px;
+    position: relative;
+    width: 200px;
+}
+
+.guest-message{
+    background-color: #fff;
+}
+
+.guest-message:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom:17px solid transparent;
+    border-right: 17px solid #FFF;
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.user-message {
+    background-color: #dcf8c6;
+    float: right;
+}
+
+.user-message:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom:17px solid transparent;
+    border-left: 17px solid #dcf8c6;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+/* sendmessage container */
+
+.sendmessage-container{
+    background-color: #EFEFEF;
+    border-left: #DDD;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+#chatmessage{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    background-color: #FFF;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    width: 900px;
+}
+
+.sendmessage-container i{
+    font-size: 24px;
+    color: #80868a;
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+}
+
+.fa-microphone {
+    float: right;
+}
