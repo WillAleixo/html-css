@@ -1,0 +1,52 @@
+/* Geral */
+* {
+    margin: 0;
+}
+
+.container{
+width: 100vh;
+height: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+     display: flex;
+     flex-direction: row;
+     background-color: #CCC;
+     justify-content: center;
+     align-items: center;
+     width: 1000px;
+     margin-top: 60px;
+}
+
+/* phone */
+
+#phone{
+    width: 500px;
+    
+}
+
+.back-phone{
+    width: 385px;
+    height: 650px;
+    background-image: url(../img/imagem_cel_exterior.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* login container */
+
+.login-container{
+    background-color: #FFF;
+    width: 385px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
